@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINESTRES</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="bg-light fixed-top shadow">
+        <nav class="navbar navbar-expand-md navbar-light bg-light pb-0">
+            <div class="container-fluid container-md justify-content-around">
+                <button class="navbar-toggler mb-1 boton-menu" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand py-0" href="#">
+                    <img src="img/CINESTRES_logo.png" height="45" alt="">
+                </a>
+                <div class="input-group barra-buscar">
+                    <input type="search" class="form-control" placeholder="Buscar por título" title="Buscar por título" aria-label="" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" title="Buscar" type="submit" id="boton-buscar"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="d-flex">
+                    <div class="barra-buscar-sm px-1">
+                        <button class="btn btn-outline-secondary" title="Buscar" type="submit" id="boton-buscar"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="px-1">
+                        <a href="login.html">
+                            <button class="btn btn-outline-primary" title="Iniciar Sesión" type="button" id="boton-cuenta">
+                                <i class="fas fa-user d-inline"></i><p class=" d-none d-md-inline">&nbsp;Iniciar&nbsp;Sesión</p>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="px-1">
+                        <a href="">
+                            <button class="btn btn-outline-success" title="Ver mi carrito" type="button" id="boton-carrito">
+                                <i class="fas fa-shopping-cart d-inline"></i><p class=" d-none d-md-inline">&nbsp;Tienda</p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light py-md-0 barra-nav">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-opcion px-md-3 px-lg-4 "href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-opcion active px-md-3 px-lg-4" aria-current="page" href="#">
+                                Películas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-opcion px-md-3 px-lg-4" href="videojuegos.html">
+                                VideoJuegos
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="py-5 text-center"><h4>Descubre la gran variedad de peliculas que ofrecemos en nuestro catalogo</h4></div>
+            <div class="py-5 text-center"><h2>Género</h2></div>
+            <div class="row text-center catalogo justify-content-center">
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-accion.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">ACCIÓN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-aventura.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">AVENTURA</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-comedia2.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">COMEDIA</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-drama.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">DRAMA</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-terror.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">TERROR</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-musical.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">MUSICAL</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-ciencia-ficcion.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">CIENCIA FICCIÓN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-documental.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">DOCUMENTAL</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-suspenso.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">SUSPENSO</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 my-1">
+                    <a href="">
+                        <div class="bloque-catalogo">
+                            <img src="img/genero-fantasia.jpg" class="img-fluid" alt="">
+                            <p class="texto-catalogo">FANTASIA</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-color">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 pt-5 pb-1 text-center">
+                    <img src="img/CINESTRES_logo2.png" height="80" alt="">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 py-3">
+                    <h3>Contactanos</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>&nbsp; CINESTRES, Trujillo - La Libertad</li>
+                        <li><a href="" class="footer-ancla"><i class="fas fa-envelope"></i>&nbsp; cinestres@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i>&nbsp; 78 98 45</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 py-3">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="" class="footer-ancla">Nosotros</a></li>
+                        <li><a href="" class="footer-ancla">Envio</a></li>
+                        <li><a href="" class="footer-ancla">Formas de Pago</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 py-3">
+                    <h3>Mi cuenta</h3>
+                    <ul>
+                        <li><a href="" class="footer-ancla">Ordenes de compra</a></li>
+                        <li><a href="" class="footer-ancla">Devoluciones</a></li>
+                        <li><a href="" class="footer-ancla">Mi Información personal</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 py-3">
+                    <h3>Siguenos en:</h3>
+                    <div class="row mt-5" id="redes">
+                        <div class="col-4">
+                            <a href="" class="footer-ancla" id="facebook"><i class="fab fa-facebook-square icono"></i></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="" class="footer-ancla" id="youtube"><i class="fab fa-youtube icono"></i></a>
+                        </div>
+                        <div class="col-4 ">
+                            <a href="" class="footer-ancla" id="twitter"><i class="fab fa-twitter-square icono"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 py-5 text-center">
+                    © 2021 CINESTRES Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+    
+</body>
+</html>
